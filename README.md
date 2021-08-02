@@ -8,37 +8,70 @@ Fetching Data | Fetching Data | Fetching Data
 ------------ | ------------- | -------------
 ![GitHub Logo](https://github.com/9asso/Fetching-data-using-JSON-API-landscape-screen/blob/main/screens/screen_a.jpg) | ![GitHub Logo](https://github.com/9asso/Fetching-data-using-JSON-API-landscape-screen/blob/main/screens/screen_b.jpg) | ![GitHub Logo](https://github.com/9asso/Fetching-data-using-JSON-API-landscape-screen/blob/main/screens/screen_c.jpg)
 
-# Using the service https://randomuser.me/ for obtaining information about users.
+# Service used for data sourcing
+Using the service https://randomuser.me/ for obtaining information about users.
 
 ```json
 {
-  "app_title" : "Realtime Test Task Database",
-  "bbukva" : {
-    "-MejKFyyyBG8PUuPMvvm" : {
-      "description" : "Your time and kindness and generosity and support to the guy who is not that much good morning I",
-      "name" : "Boruto Uzumaki",
-      "url" : "https://wallpaperaccess.com/full/456778.png"
-    },
-    "-MejLzClbdz7xggdzDzo" : {
-      "description" : "One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled into 99 tankōbon volumes as of June 2021.",
-      "name" : "One Piece",
-      "url" : "https://media.comicbook.com/2021/01/one-piece-poll-1251421.jpeg?auto=webp&width=1200&height=628&crop=1200:628,smart"
-    },
-    "-MejqaCSlSTYtAOjHm5V" : {
-      "description" : "Attack on Titan is a Japanese manga series written and illustrated by Hajime Isayama. It is set in a world where humanity lives inside cities surrounded by three enormous walls that protect them from ..",
-      "name" : "Attack on Titan",
-      "url" : "https://observer.com/wp-content/uploads/sites/2/2021/01/1724039_SpanishLatinAm_FeaturedSpotlightShowPhone_6367d3af-78a4-450b-a723-b43c635eacd7.jpg?quality=80"
-    },
-    "-MemTPUHb0pjBlZT4pf7" : {
-      "description" : "Meet Yugi and his best buds Joey, Tristan and Téa. They share a love for the newest game that’s sweeping the nation: Duel Monsters!  Legend has it five thousand years ago, ancient Egyptian Pharaohs used to play a magical game very similar to Duel Monsters. This ancient game involved magical ceremonies, which were used to foresee the future and ultimately decide one’s destiny. They called it the Shadow Games. Since the game used so many magical spells and ferocious creatures, it wasn’t long before the game got out of hand and threatened to destroy the world. Fortunately, a brave Pharaoh stepped in and averted this cataclysm.  Now, in present times, the game has been revived in the form of playing cards.  Giant monsters! Powerful magic! And ancient Egyptian legends! Yu-Gi-Oh! is one action-packed adventure series that holds all the cards! It’s your move! ",
-      "name" : "Yu-Gi-Oh!",
-      "url" : "https://assets.dicebreaker.com/yu-gi-oh-tcg-yugi-art.png/BROK/resize/1920%3E/format/jpg/quality/80/yu-gi-oh-tcg-yugi-art.png"
-    },
-    "-MemWadu8Wk0r0FgG3Dx" : {
-      "description" : "Passionné, costaud et quelque peu maladroit, Po est sans conteste le plus grand fan de kung fu. Serveur dans le restaurant de nouilles de son père, son habileté reste encore à prouver. Elu pour accomplir une ancienne prophétie, Po rejoint le monde du kung fu afin d'apprendre les arts martiaux auprès… ",
-      "name" : "Kung Fu Panda",
-      "url" : "https://ichef.bbci.co.uk/news/549/mcs/media/images/77396000/jpg/_77396213_kung-fu-panda-21.jpg"
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "brad",
+        "last": "gibson"
+      },
+      "location": {
+        "street": "9278 new road",
+        "city": "kilcoole",
+        "state": "waterford",
+        "postcode": "93027",
+        "coordinates": {
+          "latitude": "20.9267",
+          "longitude": "-7.9310"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "brad.gibson@example.com",
+      "login": {
+        "uuid": "155e77ee-ba6d-486f-95ce-0e0c0fb4b919",
+        "username": "silverswan131",
+        "password": "firewall",
+        "salt": "TQA1Gz7x",
+        "md5": "dc523cb313b63dfe5be2140b0c05b3bc",
+        "sha1": "7a4aa07d1bedcc6bcf4b7f8856643492c191540d",
+        "sha256": "74364e96174afa7d17ee52dd2c9c7a4651fe1254f471a78bda0190135dcd3480"
+      },
+      "dob": {
+        "date": "1993-07-20T09:44:18.674Z",
+        "age": 26
+      },
+      "registered": {
+        "date": "2002-05-21T10:59:49.966Z",
+        "age": 17
+      },
+      "phone": "011-962-7516",
+      "cell": "081-454-0666",
+      "id": {
+        "name": "PPS",
+        "value": "0390511T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      },
+      "nat": "IE"
     }
+  ],
+  "info": {
+    "seed": "fea8be3e64777240",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
   }
 }
 ```
