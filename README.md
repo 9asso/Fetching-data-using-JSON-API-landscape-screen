@@ -4,8 +4,6 @@ Fetching data using JSON API ; landscape screen for Android (Java)
 ![GitHub Logo](https://github.com/9asso/Fetching-data-using-JSON-API-landscape-screen/blob/main/screens/cover.png)
 
 # Screenshots
-Fetching Data | Fetching Data | Fetching Data
------------- | ------------- | -------------
 ![GitHub Logo](https://github.com/9asso/Fetching-data-using-JSON-API-landscape-screen/blob/main/screens/screen_a.jpg) | ![GitHub Logo](https://github.com/9asso/Fetching-data-using-JSON-API-landscape-screen/blob/main/screens/screen_b.jpg) | ![GitHub Logo](https://github.com/9asso/Fetching-data-using-JSON-API-landscape-screen/blob/main/screens/screen_c.jpg)
 
 # Service used for data sourcing
