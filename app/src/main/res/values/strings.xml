@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TT-HS-SOFT</string>
+    <string name="app_name_full">Test Task HS-SOFT</string>
+
+    <string name="activity_add_element_name">Name</string>
+    <string name="activity_add_element_description">Description</string>
+    <string name="activity_add_element_url">URL</string>
+    <string name="activity_add_element_btn">Save</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
